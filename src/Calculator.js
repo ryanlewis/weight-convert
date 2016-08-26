@@ -107,7 +107,7 @@ class Calculator extends React.Component {
     )
 
     return (
-      <Paper style={{ margin: '2em', padding: '1em', paddingBottom: '32px'}}>
+      <Paper style={{ padding: '1em', paddingBottom: '32px', maxWidth: '720px', margin: '2em auto'}}>
 
         { this.state.flip ? pounds : kilos }
 
