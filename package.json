@@ -1,0 +1,30 @@
+{
+  "name": "weight-calc",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "mocha --compilers js:babel-register"
+  },
+  "devDependencies": {
+    "babel-preset-es2017": "^6.14.0",
+    "babel-preset-latest": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-register": "^6.14.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "react-scripts": "0.2.3"
+  },
+  "dependencies": {
+    "convert-units": "^1.2.0",
+    "material-ui": "^0.15.4",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-tap-event-plugin": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  }
+}
